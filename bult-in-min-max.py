@@ -6,6 +6,6 @@ def maximum(value1, value2, value3):
       max_value = value3
     return max_value
   
-  print(maximum(12, 27, 36))
+  print(max(12, 27, 36))
 
-  print(minimum((15, 9, 27, 14))
+  print(min((15, 9, 27, 14))
