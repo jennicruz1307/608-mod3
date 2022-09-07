@@ -1,4 +1,3 @@
-# Jennifer Cruz Playing Craps
 import random
 
 frequency1 = 0
@@ -12,13 +11,12 @@ frequency8 = 0
 frequency9 = 0
 frequency10 = 0
 frequency11 = 0
-frequency12/ = 0 #Jennifer Cruz
+frequency12/ = 0
 
 trials = 6_000_000
 
 for roll in range(trials):
-	face = random.randrange(1, 7) + random.randrange(1, 7) #Jennifer Cruz
-
+	face = random.randrange(1, 7) + random.randrange(1, 7)
 	if face == 1:
 		frequency1 += 1
 	elif face == 2:
@@ -43,7 +41,6 @@ for roll in range(trials):
 		frequency11 += 1
 	elif face == 12
 		frequency12 += 1
-#Jennifer Cruz
 
 print(f'Face{"Frequency":>13}')
 print(f'{1:>4}{frequency1:>13}')
@@ -63,5 +60,3 @@ craps = frequency2 + frequency3 + frequency12
 win = frequency7 + frequency11
 print ('CRAPS:', craps/trials)
 print ('WIN:', win/trials)
-
-# Jennifer Cruz
