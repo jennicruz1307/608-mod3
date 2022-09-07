@@ -9,6 +9,6 @@ def maximum(value1, value2, value3):
   
   maximum(12, 27, 36)
 
-  minimum(12, 27, 36)
+  minimum((15, 9, 27, 14)
   
   """Jennifer Cruz"""
