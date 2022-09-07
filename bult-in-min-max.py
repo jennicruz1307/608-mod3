@@ -8,3 +8,7 @@ def maximum(value1, value2, value3):
     return max_value
   
   maximum(12, 27, 36)
+
+  minimum(12, 27, 36)
+  
+  """Jennifer Cruz"""
